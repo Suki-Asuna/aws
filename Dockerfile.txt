@@ -1,6 +1,0 @@
-FROM centos
-WORKDIR /root
-COPY k_server k_server
-COPY conf.toml conf.toml
-EXPOSE 7777
-ENTRYPOINT ["./k_server"]
